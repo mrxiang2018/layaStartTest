@@ -1,0 +1,7 @@
+{
+  "code": "import { ui } from \"./../ui/layaMaxUI\";\r\nexport default class GameUI extends ui.test.TestSceneUI {\r\n    constructor() {\r\n        super();\r\n        GameUI.instance = this;\r\n    }\r\n    onEnable() {\r\n    }\r\n}\r\n",
+  "references": [
+    "D:/3dWork/layaStartTest/src/ui/layaMaxUI.ts",
+    "D:/3dWork/layaStartTest/src/script/GameControl.ts"
+  ]
+}
